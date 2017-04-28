@@ -1,5 +1,5 @@
 language: C
-install: make dep
+install: make dep && make check
 compiler:
 	-  gcc
 script: make all && make test
